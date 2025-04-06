@@ -18,10 +18,10 @@ params:
     enabled: true
     title: "Bloggy" # optional default will be site title
     subtitle: "The Tech Blogs Website"
-    imageUrl: "https://github.com/ShaikAleemAhamed123/_blogs/tree/master/assets/images/original.png" # optional
+    imageUrl: "https://github.com/ShaikAleemAhamed123/_blogs/tree/master/assets/images/logo.png" # optional
     imageTitle: "Bloggy Logo" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 330 # custom size
+    imageHeight: 330 # custom size
     buttons:
       - name: Blog-Home
         url: "/home"
