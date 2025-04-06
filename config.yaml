@@ -14,9 +14,40 @@ params:
   TocOpen: true
   ShowShareButtons: true
   ShowReadingTime: true
+  profileMode:
+    enabled: true
+    title: "Bloggy" # optional default will be site title
+    subtitle: "The Tech Blogs Website"
+    imageUrl: "https://github.com/ShaikAleemAhamed123/_blogs/tree/master/assets/images/original.png" # optional
+    imageTitle: "Bloggy Logo" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Blog-Home
+        url: "/home"
+      - name: Github
+        url: "https://github.com/ShaikAleemAhamed123/_blogs"
+
+  socialIcons: # optional
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/aleem-ahamed-shaik-81123a1ab/"
+    - name: "Website"
+      url: "https://portfolio.aleemahamed.site"
 
 outputs:
   home:
     - HTML
     - RSS
     - JSON # necessary for search
+
+
+menu:
+  main:
+  - identifier: blog-home
+    name: home
+    url: /home/
+    weight: 20
+  - identifier: search
+    name: search
+    url: /search/
+    weight: 40
