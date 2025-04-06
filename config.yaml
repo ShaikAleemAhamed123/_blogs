@@ -12,6 +12,7 @@ params:
   TocOpen: true
   ShowShareButtons: true
   ShowReadingTime: true
+  baseURL: "https://blog.aleemahamed.site"
 
 outputs:
   home:

@@ -1,6 +1,7 @@
 +++
 title = 'GSOC Proposal'
 date = 2024-01-14T07:07:07+01:00
+url = "posts/gsoc"
 draft = false
 +++
 > Proposed By : Aleem Ahamed Shaik(shaikaleemahamed786@gmail.com)
