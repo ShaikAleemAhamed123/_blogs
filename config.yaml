@@ -6,13 +6,14 @@ module:
   imports:
     path: "github.com/adityatelange/hugo-PaperMod"
 
+baseURL: "https://blog.aleemahamed.site"
+
 params:
   ShowBreadCrumbs: true
   ShowToc: true
   TocOpen: true
   ShowShareButtons: true
   ShowReadingTime: true
-  BaseURL: "https://blog.aleemahamed.site"
 
 outputs:
   home:
