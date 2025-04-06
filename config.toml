@@ -1,7 +1,0 @@
-title = 'Bloggy'
-
-theme = "github.com/adityatelange/hugo-PaperMod"
-
-[module]
-  [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"

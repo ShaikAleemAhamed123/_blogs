@@ -2,7 +2,9 @@
 
 <article class="post-single">
   <header class="post-header">
+  {{ if and (not .IsHome) (site.Params.breadcrumbs) }}
     {{ partial "breadcrumbs.html" . }}
+  {{ end }}
     <h1 class="post-title entry-hint-parent">
 	Site Navigation
     </h1>
