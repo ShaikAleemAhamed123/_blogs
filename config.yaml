@@ -8,3 +8,5 @@ module:
 
 params:
   ShowBreadCrumbs: true
+  ShowToc: true
+  TocOpen: true
