@@ -12,6 +12,8 @@ module:
 baseURL: "https://blog.aleemahamed.site"
 
 params:
+  meta:
+    favicon: false
   ShowBreadCrumbs: true
   ShowToc: true
   TocOpen: true
