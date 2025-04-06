@@ -10,3 +10,11 @@ params:
   ShowBreadCrumbs: true
   ShowToc: true
   TocOpen: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
