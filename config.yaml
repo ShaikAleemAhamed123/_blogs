@@ -15,6 +15,7 @@ params:
   meta:
     favicon: false
   ShowBreadCrumbs: true
+  ShowPostNavLinks: true
   ShowToc: true
   TocOpen: true
   ShowShareButtons: true
